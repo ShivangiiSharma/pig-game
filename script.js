@@ -9,7 +9,7 @@ for (let i = 0; i < 10; i++) {
 // one
 
 function sum1(abc) {
-  console.log(abc + 2);
+  return abc + 2;
 }
 // two
 
@@ -21,6 +21,6 @@ const sum2 = function (abc) {
 
 const sum3 = abc => console.log(abc + 2);
 
-sum1(2);
+console.log(sum1(2));
 sum2(4);
 sum3(6);
