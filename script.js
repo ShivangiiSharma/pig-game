@@ -31,7 +31,6 @@ const init = function () {
   player0El.classList.add('player--active');
   player1El.classList.remove('player--active');
 };
-
 init();
 
 const switchPlayer = function () {
